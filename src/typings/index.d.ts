@@ -1,0 +1,1 @@
+/// <reference path="../../node_modules/imagine-hermesjs/Release/hermesjs.d.ts" />

@@ -1,0 +1,31 @@
+{
+  "name": "angular.tutorial",
+  "description": "Angular Typescript SPA tutorial",
+  "author": "Matthew Knight",
+  "version": "1.2.0",
+  "main": "pathToMain",
+  "dependencies": {
+    "@types/angular": "1.6.32",
+    "@types/jquery": "3.2.12",
+    "@types/lodash": "4.14.52",
+    "@types/uglify-js": "3.0.2",
+    "angular": "1.6.1",
+    "bootstrap": "^4.2.1",
+    "imagine-hermesjs": "1.6.33",
+    "imagine-log-enhancer": "1.2.23",
+    "jquery": "3.2.1",
+    "lodash": "4.17.4"
+  },
+  "devDependencies": {
+    "@types/chalk": "0.4.31",
+    "@types/gulp": "4.0.4",
+    "@types/run-sequence": "0.0.29",
+    "@types/yargs": "8.0.2",
+    "browser-sync": "2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-util": "3.0.7",
+    "imagine-gulp-tools": "1.1.6",
+    "run-sequence": "2.1.0",
+    "yargs": "8.0.2"
+  }
+}

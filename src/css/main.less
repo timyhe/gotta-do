@@ -1,0 +1,146 @@
+h1{
+    display: table;
+    font-family: Nunito;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    margin-top: 5em;
+    color: white;
+    z-index: 3;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+     -ms-animation: fadein 3s; /* Internet Explorer */
+      -o-animation: fadein 3s; /* Opera < 12.1 */
+         animation: fadein 3s;
+}
+
+.container {
+    max-width: 300px;
+}
+
+todo-component{
+    font-family: Nunito;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    margin-top: 2em;
+    align-content: right;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+    color: grey;
+    //margin-left: 3em;
+}
+  
+.strikethrough {
+    position: absolute;
+    color:white;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.strikethrough:hover {
+    overflow: visible;
+    height: auto;
+}
+
+#emoji-button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    margin-left: 100%;
+}
+
+.background-image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  
+    display: block;
+    background-image: url("https://source.unsplash.com/user/chatelp/1920x1200");
+    width: 1920px;
+    height: 1200px;
+  
+    -webkit-filter: brightness(70%);
+    -moz-filter: brightness(70%);
+    -o-filter: brightness(70%);
+    -ms-filter: brightness(70%);
+    filter: brightness(70%);
+
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+  }
+  
+
+#delete-all {
+    position: relative;
+    margin-right: 51.5vw;
+    margin-top: 2.5vw;
+    right: 0;
+}
+
+.text-info{
+    display: inline-block;
+    color: white;
+    flex-wrap: wrap;
+    width: calc(50% - 2px);;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+ /* width */
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  } 
+
+  

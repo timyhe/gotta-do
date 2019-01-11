@@ -1,0 +1,17 @@
+Things to read:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
+https://leanpub.com/javascriptallongesix/read
+http://www.typescriptlang.org/Tutorial
+https://raygun.com/javascript-debugging-tips?utm_source=twitter&utm_medium=sponsored&utm_campaign=debugging
+
+Style guides:
+https://github.com/toddmotto/angularjs-styleguide
+https://github.com/johnpapa/angular-styleguide
+
+Exercises:
+http://todomvc.com/examples/typescript-angular/#/
+
+Tools
+https://nodejs.org/en/
+https://code.visualstudio.com/Download
+https://www.mercurial-scm.org/
